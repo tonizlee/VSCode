@@ -1,0 +1,7 @@
+FROM mysql:latest
+
+ENV MYSQL_ROOT_PASSWORD 1234  
+WORKDIR /usr/src/app
+VOLUME . "/host_mntC:\Users\USER\Documents\DockermysqlDB"
+COPY . .
+EXPOSE 3306
